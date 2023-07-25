@@ -24,7 +24,7 @@ exp (t>>(-t>>11&1)|t%127|t>>4|-t*.999>>4)+32;
 ''' | sed 's/t/$v1/g' | pdsend 9090
 ```
 3. to play another tune just comment/uncomment another exp line
-4. generate visuals running this command in your terminal, *`3` is the n of particles you want to generate*
+4. generate visuals running this command in your terminal, *`3` is n of particle-groups you want to generate*
 ```bash
 bash ranpar2.sh 3
 ```
